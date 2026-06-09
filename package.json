@@ -1,0 +1,22 @@
+{
+  "name": "soul-zk",
+  "version": "1.0.0",
+  "description": "Soulbound ZK tokens — non-transferable tokens with zero-knowledge privacy for attestations and credentials",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "keywords": ["soulbound", "zk", "zero-knowledge", "erc721", "attestations", "solidity"],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
